@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CalcButton">
+        <!-- GridLayout 셀을 꽉 채우기 위한 핵심 -->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_gravity">fill</item>
+
+        <!-- 버튼 최소 크기 제거 (셀 꽉 차게) -->
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+
+        <!-- 텍스트 -->
+        <item name="android:textSize">22sp</item>
+        <item name="textAllCaps">false</item>
+
+        <!-- (선택) 기본 버튼 느낌 제거 -->
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+</resources>
